@@ -1,0 +1,60 @@
+{
+  "name": "read-env-vars",
+  "version": "1.0.0",
+  "description": "Read environment variables to JSON",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "eslint --ext .ts,.tsx src",
+    "prebuild": "rimraf lib",
+    "build": "tsc",
+    "test": "mocha"
+  },
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "import": "./lib/index.js"
+    }
+  },
+  "keywords": [
+    "env",
+    "environment variables",
+    "json"
+  ],
+  "homepage": "https://github.com/joshuaavalon/read-env-vars#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshuaavalon/read-env-vars.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joshuaavalon/read-env-vars/issues"
+  },
+  "files": [
+    "lib"
+  ],
+  "author": "Joshua Avalon",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/chai": "^4.3.4",
+    "@types/lodash-es": "^4.17.6",
+    "@types/mocha": "^10.0.0",
+    "@types/node": "^16.11.58",
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "@typescript-eslint/parser": "^5.40.0",
+    "chai": "^4.3.7",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "mocha": "^10.1.0",
+    "prettier": "^2.7.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "camelcase": "^7.0.0",
+    "lodash-es": "4.17.21"
+  }
+}
