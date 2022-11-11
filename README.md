@@ -2,6 +2,7 @@
 
 [![Version](https://badge.fury.io/js/read-env-vars.svg)](https://www.npmjs.com/package/read-env-vars)
 [![npm](https://img.shields.io/npm/dt/read-env-vars.svg)](https://www.npmjs.com/package/read-env-vars)
+[![License](https://img.shields.io/github/license/joshuaavalon/read-env-vars)](./LICENSE)
 
 > This is a pure ESM package. CommonJS is not supported.
 
@@ -66,21 +67,21 @@ PREFIX__KEY1_0=a
 
 ## Options
 
-### `source`
+#### `source`
 
 - Type: `Record<string, string | undefined>`
 - Default: `process.env`
 
 Source of the environment variables
 
-### `separator`
+#### `separator`
 
 - Type: `string`
 - Default: `__`
 
 Separator of object key
 
-### `camelCase`
+#### `camelCase`
 
 - Type: `camelcase.Options`
 - Default: `undefined`
@@ -90,7 +91,7 @@ Separator of object key
 [camelcase]: https://github.com/sindresorhus/camelcase
 [camelcase-api]: https://github.com/sindresorhus/camelcase#api
 
-### `onEmpty`
+#### `onEmpty`
 
 Value set when handle empty value
 
