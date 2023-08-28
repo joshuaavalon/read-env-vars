@@ -12,6 +12,7 @@
     "lint": "eslint --ext .ts,.tsx src",
     "prebuild": "rimraf lib",
     "build": "tsc",
+    "prerollup": "rimraf lib",
     "rollup": "rollup -c",
     "test": "mocha"
   },

@@ -1,4 +1,4 @@
-import { set } from "lodash";
+import set from "lodash/set.js";
 import camelCase from "camelcase";
 
 import type { Options as CamelCaseOptions } from "camelcase";
