@@ -4,8 +4,6 @@
 [![npm](https://img.shields.io/npm/dt/read-env-vars.svg)](https://www.npmjs.com/package/read-env-vars)
 [![License](https://img.shields.io/github/license/joshuaavalon/read-env-vars)](./LICENSE)
 
-> This is a pure ESM package. CommonJS is not supported.
-
 ## Getting Started
 
 ```sh

@@ -20,7 +20,7 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
       - run: npm ci
         if: ${{ steps.release.outputs.release_created }}
-      - run: npm run build
+      - run: npm run rollup
         if: ${{ steps.release.outputs.release_created }}
       - run: npm publish
         env:
