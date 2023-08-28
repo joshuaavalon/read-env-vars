@@ -10,7 +10,6 @@
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "noImplicitAny": true,
-    "suppressImplicitAnyIndexErrors": true,
     "strict": true,
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
