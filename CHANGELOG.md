@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/joshuaavalon/read-env-vars/compare/v1.1.0...v1.1.1) (2023-09-11)
+
+
+### Bug Fixes
+
+* Remove broken CommonJS ([a32542e](https://github.com/joshuaavalon/read-env-vars/commit/a32542eb3458ad769ccb47ac4f1dbfb97628a8f5))
+
 ## [1.1.0](https://github.com/joshuaavalon/read-env-vars/compare/v1.0.0...v1.1.0) (2023-08-28)
 
 
